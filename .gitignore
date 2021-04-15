@@ -1,0 +1,17 @@
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+.DS_Store
+*/.DS_Store
+.idea
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# sbteclipse plugin
+.target
