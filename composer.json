@@ -1,0 +1,16 @@
+{
+  "description": "Tencent WeMeeting Api php sdk",
+  "type": "library",
+  "license": "Apache-2.0",
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "autoload": {
+    "classmap": [
+      "./src/WeMeetingGateWay"
+    ],
+    "psr-4": {
+      "WeMeetingGateWay\\": "./src/WeMeetingGateWay/"
+    }
+  }
+}
