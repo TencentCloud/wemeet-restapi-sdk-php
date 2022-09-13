@@ -163,7 +163,7 @@ class WeMeetingApi
         }
         // sha256加密认证参数
         $http_header['X-TC-Signature'] = $this->cred->sign($sign_header, $post_json_str, $method);
-        if ($this->_user_registered) {
+        if ($this->user_registered) {
             $http_header['X-TC-Registered'] = 1;
         }
         $http_header = array_merge($this->common_header, $http_header);
